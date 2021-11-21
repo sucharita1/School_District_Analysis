@@ -160,11 +160,11 @@ So we can draw some inferences from the current analysis
 * School size is the best indicator of a school's performance. The difference is huge where schools which are small/medium in size have above 89% overall pass percentage regardless of the budget or the type of school but big schools with more than 2000 students have an overall pass percentage 58%. 
 ![scores_by_school_size](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/scores_by_school_size.png?raw=true)
 
-* School type also is a indicator of a school's performance. The difference is huge where school type is Charter have 90.39% overall pass percentage while for school type as Districts have 53.67% overall pass percentage. But also can be explained because of the size as 1858 students is the highest student size for Charter type schools.
+* School type also is a indicator of a school's performance. The difference is huge where school type is Charter have 90.39% overall pass percentage while for school type as Districts have 53.67% overall pass percentage. All the top 5 schools are charter schools. But also can be explained because of the size of students is below 2500 highest being 2283 of Wilson High School. While some districts schools have close to 5000 students in them.
 ![scores_by_school_type](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/scores_by_school_type.png?raw=true)
 
 * Wilson High School has 2283 students and lowest budget of $578 per students but it is among the top 5 schools with 90.58% overall pass percentage. There should be more analysis on the results of this school as their data may be compromised or else if their data is correct we need to do more research to find what makes it successful and try to follow their footsteps for other large schools.
-![top_five_schools](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/top_five_schools.png?raw=true)
+![Wilson_High_school](https://github.com/sucharita1/School_District_Analysis/blob/7dff90f1f24f463ab3778fff42ba1f57ec9b5e85/Resources/Wilson_High_school.png?raw=true)
 
 
 
