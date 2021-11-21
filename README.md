@@ -16,21 +16,21 @@ Analyse data on student funding and student standardized tests scores for a city
 The analysis of the School Disticts results show that:
 
 ### Results at district level:
-* Total Schools: 15
+* Total Schools: 15.
 	It is the same as before.
-* Total Students: 39,170
+* Total Students: 39,170.
 	It is the same as before.
-* Total Budget: $24,649,428.00
+* Total Budget: $24,649,428.00.
 	It is the same as before.
-* Avg. Math Score : 78.9
+* Avg. Math Score : 78.9.
 	It was 79.0 earlier. So, average math scores have come down by .1 points
-* Avg. reading Score: 81.9
+* Avg. reading Score: 81.9.
 	It is the same as before.
-* % Passing Math: 74.8
+* % Passing Math: 74.8.
 	It was 75.0 earlier. So, % passing math has come down by .2 points
-* % Passing Reading: 85.7
-	It was 86.0 earlier. So, % passing reading has come down t.3 points.
-* % Overall passing: 64.9
+* % Passing Reading: 85.7.
+	It was 86.0 earlier. So, % passing reading has come down by .3 points.
+* % Overall passing: 64.9.
 	It was 65.0 earlier. So, % overall passing has come down by .1 points
 
 You can find the district level details for both before and after below.
@@ -62,20 +62,22 @@ You can find the school level details for both before and after below.
 ![school_summary](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/school_summary.png?raw=true)
 
 ### Top Five schools based on overall passing rate:
-	1. Cabrera High School
-	2. Thomas High School
-	3. Griffin High School
-	4. Wilson High School
-	5. Pena High School
+1. Cabrera High School
+2. Thomas High School
+3. Griffin High School
+4. Wilson High School
+5. Pena High School
+
  The Top 5 schools remain the same as before. You can find the details for both before and after below.
 ![top_five_schools](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/top_five_schools.png?raw=true)
 
 ### Bottom Five schools based on overall passing rate:
-    1. Rodriguez High School.
-    2. Figueroa High School.
-    3. Huang High School.
-    4. Hernandez High School.
-    5. JOhnson High School.
+1. Rodriguez High School.
+2. Figueroa High School.
+3. Huang High School.
+4. Hernandez High School.
+5. JOhnson High School.
+
 The Bottom 5 schools remain the same as before. You can find the details for both before and after below.
 ![bottom_five_schools](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/bottom_five_schools.png?raw=true)
 
@@ -88,7 +90,7 @@ As we can see clearly from the images the reading score for each grade showed na
 ![reading_by_grade](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/reading_by_grade.png?raw=true)
 
 ### The scores by school spending per student:
-Thomas High school spent $638 per student so for the $630-644 bracket resutls were:
+Thomas High school spent $638 per student so for the $630-644 bracket results were:
 * Average Math Score: 78.502002
 	It was 78.518855. The average math score came down by .02 points. approx.
 * Average Reading Score: 81.636261
@@ -148,7 +150,7 @@ We can say that only the Math Score came down by one-tenth and thus affected the
 
 2. The School Summary showed the same thing that Avg. Math Score for Thomas High School came down by .06 points that is after rounding .1 points. The reading score actaully went up by .05 points. And the % Passing Math, % Passing Reading, % Overall passing were in tenth of percent and too small to matter they meant discrepancy in one thousandth of a value.
 
-3. The rank of the Top five schools and the bottom five schools were the same.
+3. The rank of the Top five schools and the bottom five schools were the same. But Thomas High School being the second school in top 5 showed avg Math score came down by  .07 points appox and avg Reading score went up by .05 points approx. Both can be rounded off to .1 points. But, the % Passing Math, % Passing Reading, % Overall passing were in tenth of percent and too small to matter they meant discrepancy in one thousandth of a value.
 
 4. The score based on spending_per_student, school size or school type also showed minor changes but taking into account that hundredths (range: 0.01–0.09) or lower do not impact an average  and  tenths of a percent (.1-.9) is equivalent to thousandths of a value, or grade. Like averages, thousandths of a grade don't have an impact on the overall percentage because they are so small.
 
