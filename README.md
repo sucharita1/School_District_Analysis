@@ -3,10 +3,10 @@ Analyse data on student funding and student standardized tests scores for a city
  
 ## Overview of the school district analysis:
 
-### Maria is the chief data scientist for a City School district. In this module we will be helping Maria analyse data on student funding and student standardized tests scores. We have access to every student's math and reading scores as well as various information on the school they attend in files [schools_complete.csv](.csv) and [students_complete.csv](.csv)
+### Maria is the chief data scientist for a City School district. In this module we will be helping Maria analyse data on student funding and student standardized tests scores. We have access to every student's math and reading scores as well as various information on the school they attend in files [schools_complete.csv](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/schools_complete.csv) and [students_complete.csv](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/students_complete.csv)
 * Our task is to aggregate the data and showcase trends in school performance. This analysis will assist the school board and superintendent in making decisions regarding the school budgets and priorities.
 
-* The school board has notified Maria and her supervisor that the [students_complete.csv](.csv) file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. We have to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once we’ve replaced the math and reading scores, Maria would like us to repeat the school district analysis and write up a report to describe how these changes affected the overall analysis.
+* The school board has notified Maria and her supervisor that the [students_complete.csv](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/students_complete.csv) file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. We have to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once we’ve replaced the math and reading scores, Maria would like us to repeat the school district analysis and write up a report to describe how these changes affected the overall analysis.
   
 ## Resources
 * Data Source: schools_complete.csv, students_complete.csv
@@ -34,7 +34,7 @@ The analysis of the School Disticts results show that:
 	It was 65.0 earlier. So, % overall passing has come down by .1 points
 
 You can find the district level details for both before and after below.
-![district_summary](?raw=true)
+![district_summary](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/district_summary.png?raw=true)
 
 ### Results at school level:
 The school level summary tells us the school type, total students, total budget, per student budget, Avg. Math Score, Avg. reading Score, % Passing Math, % Passing Reading, % Overall passing for all the fifteen schools. Let us see the results for Thomas High school only as other schools did not have any discrepancy in the results.
@@ -59,7 +59,7 @@ The school level summary tells us the school type, total students, total budget,
 	It was 90.948012. The % overall passing came down by .32 points approx.
 
 You can find the school level details for both before and after below.
-![school_summary](?raw=true)
+![school_summary](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/school_summary.png?raw=true)
 
 ### Top Five schools based on overall passing rate:
 	1. Cabrera High School
@@ -68,7 +68,7 @@ You can find the school level details for both before and after below.
 	4. Wilson High School
 	5. Pena High School
  The Top 5 schools remain the same as before. You can find the details for both before and after below.
-![top_five_schools](?raw=true)
+![top_five_schools](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/top_five_schools.png?raw=true)
 
 ### Bottom Five schools based on overall passing rate:
     1. Rodriguez High School.
@@ -77,15 +77,15 @@ You can find the school level details for both before and after below.
     4. Hernandez High School.
     5. JOhnson High School.
 The Bottom 5 schools remain the same as before. You can find the details for both before and after below.
-![bottom_five_schools](?raw=true)
+![bottom_five_schools](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/bottom_five_schools.png?raw=true)
 
 ### The average math score for each grade level from each school:
 As we can see clearly from the images the math score for each grade showed nan for 9th grade in Thomas High School. You can find details for both before and after below.
-![math_by_grade](?raw=true)
+![math_by_grade](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/math_by_grade.png?raw=true)
 
 ### The average reading score for each grade level from each school:
 As we can see clearly from the images the reading score for each grade showed nan for 9th grade in Thomas High School. You can find the details for both before and after below.
-![reading_by_grade](?raw=true)
+![reading_by_grade](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/reading_by_grade.png?raw=true)
 
 ### The scores by school spending per student:
 Thomas High school spent $638 per student so for the $630-644 bracket resutls were:
@@ -101,7 +101,7 @@ Thomas High school spent $638 per student so for the $630-644 bracket resutls we
 	It was 62.857656. The % overall passing came down by .08 points approx
 
 You can find the scores by school spending per student details for both before and after below.
-![spending_ranges_per_student](?raw=true)
+![spending_ranges_per_student](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/spending_ranges_per_student.png?raw=true)
 
 ### The scores by school size
 The school size for Thomas High School was 1635. So for the school size medium (1000-2000) students the results were:
@@ -117,7 +117,7 @@ The school size for Thomas High School was 1635. So for the school size medium (
 	It was 90.621535. The % overall passing came down by .06 points approx.
 
 You can find the scores by school size details for both before and after below.
-![scores_by_school_size](?raw=true)
+![scores_by_school_size](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/scores_by_school_size.png?raw=true)
 
 ### The scores by school type
 The school type for Thomas High School was Charter.So for Charter school type results were:
@@ -134,7 +134,7 @@ The school type for Thomas High School was Charter.So for Charter school type re
 
 
 You can find the scores by school type details for both before and after below.
-![scores_by_school_type](?raw=true)
+![scores_by_school_type](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/scores_by_school_type.png?raw=true)
 
 ## Summary:
 
@@ -156,10 +156,15 @@ We can safely say that School board and Maria should be relieved that even after
 
 So we can draw some inferences from the current analysis 
 * School size is the best indicator of a school's performance. The difference is huge where schools which are small/medium in size have above 89% overall pass percentage regardless of the budget or the type of school but big schools with more than 2000 students have an overall pass percentage 58%. 
-![scores_by_school_size](?raw=true)
+![scores_by_school_size](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/scores_by_school_size.png?raw=true)
+
+* School type also is a indicator of a school's performance. The difference is huge where school type is Charter have 90.39% overall pass percentage while for school type as Districts have 53.67% overall pass percentage. But also can be explained because of the size as 1858 students is the highest student size for Charter type schools.
+![scores_by_school_type](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/scores_by_school_type.png?raw=true)
 
 * Wilson High School has 2283 students and lowest budget of $578 per students but it is among the top 5 schools with 90.58% overall pass percentage. There should be more analysis on the results of this school as their data may be compromised or else if their data is correct we need to do more research to find what makes it successful and try to follow their footsteps for other large schools.
-![top_five_schools](?raw=true)
+![top_five_schools](https://github.com/sucharita1/School_District_Analysis/blob/730ea4fec1ea4092bc1c340f45c86fb43457bd4d/Resources/top_five_schools.png?raw=true)
+
+
 
 
 
